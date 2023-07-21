@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- tildes -->
+    <meta charset="UTF-8">
+    <!-- tildes -->
+
+    <!-- dimensiones de la pagina -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- dimensiones de la pagina -->
+
+  
+
+    <title>Examen de Heces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        form {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #343a40;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+        select, input {
+            width: 100%;
+            height: 40px;
+            margin-top: 5px;
+            padding: 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        </style>
+</head>
+<body>
+    <form action="process.php" method="post">
+        <h1>Examen de Heces</h1>
+
+        <h2>Macroscópico:</h2>
+        <label for="color">Color:</label>
+        <select id="color" name="color">
+            <option value="cafe">Café</option>
+            <option value="verde">Verde</option>
+            <option value="rojo">Rojo</option>
+        </select>
+
+        <label for="consistencia">Consistencia:</label>
+        <select id="consistencia" name="consistencia">
+            <option value="pastoso">Pastoso</option>
+            <option value="formado">Formado</option>
+            <option value="semi_diarreico">Semi-diarreico</option>
+            <option value="diarreico">Diarreico</option>
+        </select>
+
+        <label for="moco">Moco:</label>
+        <select id="moco" name="moco">
+            <option value="negativo">Negativo</option>
+            <option value="escaso">Escaso</option>
+            <option value="regular_cantidad">Regular cantidad</option>
+            <option value="abundante">Abundante</option>
+        </select>
+
+        <label for="sangre">Sangre:</label>
+        <select id="sangre" name="sangre">
+            <option value="negativa">Negativa</option>
+            <option value="escasa">Escasa</option>
+            <option value="regular_cantidad">Regular cantidad</option>
+            <option value="abundante">Abundante</option>
+        </select>
+
+        <label for="restos_alimenticios">Restos Alimenticios:</label>
+        <select id="restos_alimenticios" name="restos_alimenticios">
+            <option value="negativos">Negativos</option>
+            <option value="escasos">Escasos</option>
+            <option value="regular_cantidad">Regular cantidad</option>
+            <option value="abundantes">Abundantes</option>
+        </select>
+
+        <label for="pH">pH:</label>
+        <input type="number" id="pH" name="pH" min="1.0" max="12.0" step="0.1">
+
+        <h2>Microscópico:</h2>
+
+<label for="celulas_vegetales">Células vegetales:</label>
+<select id="celulas_vegetales" name="celulas_vegetales">
+    <option value="negativas">Negativas</option>
+    <option value="escasas">Escasas</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="grasas">Grasas:</label>
+<select id="grasas" name="grasas">
+    <option value="negativas">Negativas</option>
+    <option value="escasas">Escasas</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="almidones">Almidones:</label>
+<select id="almidones" name="almidones">
+    <option value="negativos">Negativos</option>
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="levaduras">Levaduras:</label>
+<select id="levaduras" name="levaduras">
+    <option value="negativas">Negativas</option>
+    <option value="escasas">Escasas</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="jabones">Jabones:</label>
+<select id="jabones" name="jabones">
+    <option value="negativos">Negativos</option>
+    <option value="escasa">Escasa</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="bacterias">Bacterias:</label>
+<select id="bacterias" name="bacterias">
+    <option value="negativas">Negativas</option>
+    <option value="escasas">Escasas</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundante">Abundante</option>
+</select>
+
+<label for="leucocitos">Leucocitos:</label>
+<select id="leucocitos" name="leucocitos">
+    <option value="negativos">Negativos</option>
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="eritrocitos">Eritrocitos:</label>
+<select id="eritrocitos" name="eritrocitos">
+    <option value="negativos">Negativos</option>
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos">Parásitos:</label>
+<select id="parasitos" name="parasitos">
+    <option value="no_se_observan">No se observan</option>
+    <option value="blastocystis_hominis_escasos">Blastocystis hominis Escasos</option>
+    <option value="blastocystis_hominis_regular_cantidad">Blastocystis hominis Regular cantidad</option>
+    <option value="blastocystis_hominis_abundantes">Blastocystis hominis Abundantes</option>
+</select>
+
+<!-- nueva copia -->
+<label for="parasitos_blastocystis_hominis">Parásitos: Blastocystis hominis</label>
+<select id="parasitos_blastocystis_hominis" name="parasitos_blastocystis_hominis">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos_entamoeba_histolytica">Parásitos: Entamoeba histolytica</label>
+<select id="parasitos_entamoeba_histolytica" name="parasitos_entamoeba_histolytica">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos_entamoeba_coli">Parásitos: Entamoeba coli</label>
+<select id="parasitos_entamoeba_coli" name="parasitos_entamoeba_coli">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos_endolimax_nana">Parásitos: Endolimax nana</label>
+<select id="parasitos_endolimax_nana" name="parasitos_endolimax_nana">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos_giardia_lamblia">Parásitos: Giardia lamblia</label>
+<select id="parasitos_giardia_lamblia" name="parasitos_giardia_lamblia">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="parasitos_iodamoeba_butschlii">Parásitos: Iodamoeba butschlii</label>
+<select id="parasitos_iodamoeba_butschlii" name="parasitos_iodamoeba_butschlii">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+
+        <!-- Aquí puedes seguir añadiendo los demás criterios. -->
+
+        <label for="trofozoitos_entamoeba_histolytica">Trofozoitos de: Entamoeba histolytica</label>
+<select id="trofozoitos_entamoeba_histolytica" name="trofozoitos_entamoeba_histolytica">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="trofozoitos_entamoeba_coli">Trofozoitos de: Entamoeba coli</label>
+<select id="trofozoitos_entamoeba_coli" name="trofozoitos_entamoeba_coli">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="trofozoitos_endolimax_nana">Trofozoitos de: Endolimax nana</label>
+<select id="trofozoitos_endolimax_nana" name="trofozoitos_endolimax_nana">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="trofozoitos_giardia_lamblia">Trofozoitos de: Giardia lamblia</label>
+<select id="trofozoitos_giardia_lamblia" name="trofozoitos_giardia_lamblia">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<label for="trofozoitos_iodamoeba_butschlii">Trofozoitos de: Iodamoeba butschlii</label>
+<select id="trofozoitos_iodamoeba_butschlii" name="trofozoitos_iodamoeba_butschlii">
+    <option value="escasos">Escasos</option>
+    <option value="regular_cantidad">Regular cantidad</option>
+    <option value="abundantes">Abundantes</option>
+</select>
+
+<input type="submit" value="Enviar">
+
+<!-- nuevos -->
+      
+    </form>
+</body>
+</html>
