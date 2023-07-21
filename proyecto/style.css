@@ -29,3 +29,74 @@ input[type="submit"] {
         width: 50%;
     }
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#trofozoitos-container {
+    margin-bottom: 15px;
+}
+
+.trofozoito-item {
+    margin-bottom: 10px;
+}
+
+.trofozoito-item select {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+button#add_trofozoito {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#add_trofozoito:hover {
+    background-color: #0056b3;
+}
+
+body {
+    counter-reset: parasitoCount;
+  }
+
+  
+  #parasitos-container {
+    margin-bottom: 15px;
+}
+
+.parasito-item {
+    margin-bottom: 10px;
+}
+
+.parasito-item select {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+button#add_parasito {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#add_parasito:hover {
+    background-color: #0056b3;
+}
+
+#parasitos-container .parasito-item:nth-child(n):before {
+    content: "Parásito " counter(parasitoCount);
+    counter-increment: parasitoCount;
+    font-weight: bold;
+}
+
+#parasitos-container .parasito-item:first-child:before {
+    content: "";
+}
