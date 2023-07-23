@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Agrega tus estilos aquí */
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-container label {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="immunologyForm">
+        <h1>Inmunología</h1>
+
+        <div class="form-group">
+            <label for="FR">Factor Reumatoideo (FR):</label>
+            <select id="FR" name="FR">
+                <option value="negative">Negativo</option>
+                <option value="8">8 IU/ml</option>
+                <option value="16">16 IU/ml</option>
+                <option value="32">32 IU/ml</option>
+                <option value="64">64 IU/ml</option>
+                <option value="128">128 IU/ml</option>
+                <option value="256">256 IU/ml</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="ASO">Antiestreptolisina O (ASO):</label>
+            <select id="ASO" name="ASO">
+                <option value="negative">Negativo</option>
+                <option value="200">200 IU/ml</option>
+                <option value="400">400 IU/ml</option>
+                <option value="800">800 IU/ml</option>
+                <option value="1600">1,600 IU/ml</option>
+                <option value="3200">3,200 IU/ml</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="PCR">Proteína C Reactiva (PCR):</label>
+            <select id="PCR" name="PCR">
+                <option value="negative">Negativo</option>
+                <option value="6">6 mg/L</option>
+                <option value="12">12 mg/L</option>
+                <option value="24">24 mg/L</option>
+                <option value="48">48 mg/L</option>
+                <option value="96">96 mg/L</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

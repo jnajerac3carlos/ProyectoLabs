@@ -1,27 +1,40 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    counter-reset: parasitoCount;
 }
+
 form {
     margin: 20px auto;
     width: 90%;
     max-width: 600px;
 }
+
 label {
     display: block;
     margin-top: 20px;
 }
+
 select, input {
     width: 100%;
     height: 30px;
     margin-top: 5px;
 }
+
 input[type="submit"] {
     margin-top: 20px;
     padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
 @media only screen and (min-width: 600px) {
@@ -34,20 +47,20 @@ input[type="submit"] {
     margin-bottom: 20px;
 }
 
-#trofozoitos-container {
+#trofozoitos-container, #parasitos-container {
     margin-bottom: 15px;
 }
 
-.trofozoito-item {
+.trofozoito-item, .parasito-item {
     margin-bottom: 10px;
 }
 
-.trofozoito-item select {
+.trofozoito-item select, .parasito-item select {
     width: 100%;
     margin-bottom: 5px;
 }
 
-button#add_trofozoito {
+button#add_trofozoito, button#add_parasito {
     background-color: #007BFF;
     color: #fff;
     padding: 5px 10px;
@@ -56,38 +69,7 @@ button#add_trofozoito {
     cursor: pointer;
 }
 
-button#add_trofozoito:hover {
-    background-color: #0056b3;
-}
-
-body {
-    counter-reset: parasitoCount;
-  }
-
-  
-  #parasitos-container {
-    margin-bottom: 15px;
-}
-
-.parasito-item {
-    margin-bottom: 10px;
-}
-
-.parasito-item select {
-    width: 100%;
-    margin-bottom: 5px;
-}
-
-button#add_parasito {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button#add_parasito:hover {
+button#add_trofozoito:hover, button#add_parasito:hover {
     background-color: #0056b3;
 }
 
