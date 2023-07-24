@@ -1,0 +1,17 @@
+Dengue IgM_IgG_Ns1.html
+ets.html
+GrupoSanguíneo.html
+HelicobacterPyloriEnHeces.html
+influenzaAB.html
+Inmunología.html
+orina.html
+PaneldeParasitos.html
+PruebaEmbarazo.html
+RecuentoEosinofilos.html
+RotaAdenovirus.html
+SangreOculta.html
+TiemposCoagulación.html
+torch.html
+TorchIGM.html
+widal.html
+ExamenHeces.html

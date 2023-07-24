@@ -59,34 +59,54 @@
 </head>
 
 <body>
-    <form id="dengueForm">
-        <h1>Dengue IgM, IgG, Ns1</h1>
+    <form id="influenzaABForm">
+        <h1>Influenza A y B</h1>
         
         <div class="form-group">
-            <label for="dengueIgM">Dengue IgM:</label>
-            <select id="dengueIgM" name="dengueIgM">
+            <label for="influenzaA">Virus Influenza tipo A:</label>
+            <select id="influenzaA" name="influenzaA">
                 <option value="positive">Positivo</option>
                 <option value="negative">Negativo</option>
             </select>
         </div>
         
         <div class="form-group">
-            <label for="dengueIgG">Dengue IgG:</label>
-            <select id="dengueIgG" name="dengueIgG">
-                <option value="positive">Positivo</option>
-                <option value="negative">Negativo</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label for="ns1">Ns1:</label>
-            <select id="ns1" name="ns1">
+            <label for="influenzaB">Virus Influenza tipo B:</label>
+            <select id="influenzaB" name="influenzaB">
                 <option value="positive">Positivo</option>
                 <option value="negative">Negativo</option>
             </select>
         </div>
         
         <input type="submit" value="Enviar">
+
+                <!-- boton de regresar -->
+                <div class="container mt-4 d-flex justify-content-center">
+                    <a href="../index.html" class="btn btn-volver">Volver al menú principal</a>
+                </div>
+        
+                <style>
+                    .btn-volver,
+                    .btn-examen {
+                        display: inline-block;
+                        padding: 10px 30px;
+                        background-color: #00befd;
+                        color: #fff;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        transition: background-color 0.3s;
+                        margin-right: 10px;
+                        /* Agregar espacio entre botones */
+                        margin-top: 20px;
+                        margin-bottom: 35px;
+                        /* Agregar espacio entre los botones y el contenido siguiente */
+                    }
+        
+                    .btn-volver:hover,
+                    .btn-examen:hover {
+                        background-color: #0056b3;
+                    }
+                </style>
     </form>
 </body>
 </html>

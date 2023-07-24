@@ -66,29 +66,12 @@
     </style>
 </head>
 
-<form id="parasitePanelForm">
-    <h1>Panel de Parásitos</h1>
+<body>
+  <form id="hPyloriForm">
+    <h1>Helicobacter Pylori en Heces</h1>
     <div class="form-group">
-      <label for="antigenEH">Antígeno de Entamoeba Histolytica/dispar:</label>
-      <select id="antigenEH" name="antigenEH">
-        <option value="positive">Positivo</option>
-        <option value="negative">Negativo</option>
-        <option value="noFound">No se encontraron</option>
-      </select>
-    </div>
-  
-    <div class="form-group">
-      <label for="antigenGL">Antígeno de Giardia lamblia:</label>
-      <select id="antigenGL" name="antigenGL">
-        <option value="positive">Positivo</option>
-        <option value="negative">Negativo</option>
-        <option value="noFound">No se encontraron</option>
-      </select>
-    </div>
-  
-    <div class="form-group">
-      <label for="antigenCP">Antígeno de Cryptosporidium parvum/dispar:</label>
-      <select id="antigenCP" name="antigenCP">
+      <label for="antigenHP">Antígeno de H. pylori:</label>
+      <select id="antigenHP" name="antigenHP">
         <option value="positive">Positivo</option>
         <option value="negative">Negativo</option>
         <option value="noFound">No se encontraron</option>
@@ -96,5 +79,36 @@
     </div>
   
     <input type="submit" value="Enviar">
+
+            <!-- boton de regresar -->
+            <div class="container mt-4 d-flex justify-content-center">
+                <a href="../index.html" class="btn btn-volver">Volver al menú principal</a>
+            </div>
+    
+            <style>
+                .btn-volver,
+                .btn-examen {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    background-color: #00befd;
+                    color: #fff;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    transition: background-color 0.3s;
+                    margin-right: 10px;
+                    /* Agregar espacio entre botones */
+                    margin-top: 20px;
+                    margin-bottom: 35px;
+                    /* Agregar espacio entre los botones y el contenido siguiente */
+                }
+    
+                .btn-volver:hover,
+                .btn-examen:hover {
+                    background-color: #0056b3;
+                }
+            </style>
   
   </form>
+</body>
+
+</html>
