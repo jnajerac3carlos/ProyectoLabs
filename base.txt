@@ -1,0 +1,12 @@
+-DatosCliente
+-DatosEmpleado
+-DatosExamenes_Resultados
+
+
+kennet
+-gestion de citas para examenes a domicilio (envio del correo, guardado en la db y muestra cita al cliente)
+-HistorialExamenes
+
+
+-codigo de encryptacion
+-arquitectura a trabajar mvc, hexagonal,tdd,ddd, capas (mvc)
