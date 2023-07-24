@@ -148,3 +148,27 @@ body {
     background-color: #0056b3;
 }
 
+
+
+/* Estilo para la barra de búsqueda */
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.form-inline .form-control {
+    flex: 1; /* Que el campo de búsqueda ocupe todo el espacio posible */
+    max-width: 300px; /* Máximo ancho del campo de búsqueda */
+}
+
+.form-inline .btn {
+    flex: 0 0 auto; /* Evitar que el botón afecte el ancho del campo de búsqueda */
+    margin-left: 10px; /* Agregar un espacio entre el campo de búsqueda y el botón */
+}
+
+/* Estilos adicionales para el botón de búsqueda */
+.btn-primary {
+    min-width: 100px; /* Ancho mínimo del botón */
+}
+
