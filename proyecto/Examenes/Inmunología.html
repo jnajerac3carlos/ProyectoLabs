@@ -5,14 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Agrega tus estilos aquí */
-        .flex-container {
-            display: flex;
-            align-items: center;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
         }
 
-        .flex-container label {
-            margin-right: 10px;
+        form {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #343a40;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+
+        select {
+            width: 100%;
+            height: 40px;
+            margin-top: 5px;
+            padding: 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -41,10 +81,10 @@
    <!-- corregir-->
 
                 <option value="200">Positivo =   200 IU/ml</option>
-                <option value="400">400 IU/ml</option>
-                <option value="800">800 IU/ml</option>
-                <option value="1600">1,600 IU/ml</option>
-                <option value="3200">3,200 IU/ml</option>
+                <option value="400">Positivo =   400 IU/ml</option>
+                <option value="800">Positivo =   800 IU/ml</option>
+                <option value="1600">Positivo =   1,600 IU/ml</option>
+                <option value="3200">Positivo =   3,200 IU/ml</option>
             </select>
         </div>
 
