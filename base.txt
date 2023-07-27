@@ -9,4 +9,4 @@ kennet
 
 
 -codigo de encryptacion
--arquitectura a trabajar mvc, hexagonal,tdd,ddd, capas (mvc)
+-arquitectura a trabajar mvc, hexagonal,tdd,ddd, capas (mvc).
