@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php require "../Partials/Primera.php" ?>
 
-<head>
-    <!-- tildes -->
-    <meta charset="UTF-8">
-    <!-- tildes -->
-
-    <!-- dimensiones de la pagina -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <!-- dimensiones de la pagina -->
+<div class="pagetitle">
+<h2>Sangre Oculta</h3>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Formularios</li>
+            <li class="breadcrumb-item active">Sangre Oculta</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
     
     <style>
         body {
@@ -64,11 +64,9 @@
             background-color: #0056b3;
         }
     </style>
-</head>
 
-<body>
   <form id="sangreOcultaForm">
-    <h1>Sangre Oculta</h1>
+    
     <div class="form-group">
       <label for="sangreOcultaFOB">Sangre Oculta/FOB:</label>
       <select id="sangreOcultaFOB" name="sangreOcultaFOB">
@@ -82,7 +80,7 @@
 
             <!-- boton de regresar -->
             <div class="container mt-4 d-flex justify-content-center">
-                <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+            <a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
             </div>
     
             <style>
@@ -109,4 +107,4 @@
             </style>
   
   </form>
-  <?php require "../../Presentacion/Partials/Segunda.php" ?>
+  <?php require "../Partials/Segunda.php" ?>

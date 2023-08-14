@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+<?php require "../Partials/Primera.php" ?>
+
+<div class="pagetitle">
+<h3>TORCH IgM</h3>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Formularios</li>
+            <li class="breadcrumb-item active">TORCH IgM</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -57,10 +63,9 @@
             background-color: #0056b3;
         }
     </style>
-</head>
-<body>
+
     <form id="torchIgMForm">
-        <h1>TORCH IgM</h1>
+       
 
         <div class="form-group">
             <label for="toxoplasmaIgM">Toxoplasma IgM:</label>
@@ -106,7 +111,7 @@
 
                 <!-- boton de regresar -->
                 <div class="container mt-4 d-flex justify-content-center">
-                    <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+                <a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
                 </div>
         
                 <style>
