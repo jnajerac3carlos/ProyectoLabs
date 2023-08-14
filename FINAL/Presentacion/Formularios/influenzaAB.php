@@ -1,12 +1,12 @@
-<?php require "../../Presentacion/Partials/Primera.php" ?>
+<?php require "../Partials/Primera.php" ?>
 
 <div class="pagetitle">
-    <h1>Form Layouts</h1>
+<h3>Influenza A y B</h3>
     <nav>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item">Forms</li>
-            <li class="breadcrumb-item active">Layouts</li>
+            <li class="breadcrumb-item">Formularios</li>
+            <li class="breadcrumb-item active">Influenza A y B</li>
         </ol>
     </nav>
 </div><!-- End Page Title -->
@@ -66,7 +66,7 @@
 
 <body>
     <form id="influenzaABForm">
-        <h1>Influenza A y B</h1>
+        
         
         <div class="form-group">
             <label for="influenzaA">Virus Influenza tipo A:</label>
@@ -88,7 +88,7 @@
 
                 <!-- boton de regresar -->
                 <div class="container mt-4 d-flex justify-content-center">
-                    <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+                <a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
                 </div>
         
                 <style>
@@ -114,4 +114,4 @@
                     }
                 </style>
     </form>
-    <?php require "../../Presentacion/Partials/Segunda.php" ?>
+    <?php require "../Partials/Segunda.php" ?>

@@ -1,12 +1,12 @@
-<?php require "../../Presentacion/Partials/Primera.php" ?>
+<?php require "../Partials/Primera.php" ?>
 
 <div class="pagetitle">
-    <h1>Form Layouts</h1>
+<h3>Prueba de Covid</h3>   
     <nav>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item">Forms</li>
-            <li class="breadcrumb-item active">Layouts</li>
+            <li class="breadcrumb-item">Formularios</li>
+            <li class="breadcrumb-item active">Prueba de Covid</li>
         </ol>
     </nav>
 </div><!-- End Page Title -->
@@ -67,7 +67,7 @@
 
 <body>
     <form id="covidForm">
-        <h1>Prueba de Covid</h1>
+        
         
         <div class="form-group">
             <label for="covidTest">Antígeno o PCR:</label>
@@ -89,7 +89,7 @@
 
 <!-- boton de regresar -->
 <div class="container mt-4 d-flex justify-content-center">
-    <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+<a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
 </div>
 
 <style>
@@ -114,4 +114,4 @@
         background-color: #0056b3;
     }
 </style>
-<?php require "../../Presentacion/Partials/Segunda.php" ?>
+<?php require "../Partials/Segunda.php" ?>

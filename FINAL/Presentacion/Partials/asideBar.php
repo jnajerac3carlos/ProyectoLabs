@@ -14,102 +14,102 @@
     </a>
     <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
     <li>
-        <a  href="../Presentacion/Formularios/orina.php">
+        <a  href="../Formularios/orina.php">
             <i class="bi bi-circle"></i><span>Examen de Orina</span>
         </a>
     </li>
       <li>
-        <a href="../Presentacion/Formularios/ExamenHeces.html">
+        <a href="../Formularios/ExamenHeces.php">
           <i class="bi bi-circle"></i><span>Examen de Heces</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/PruebaEmbarazo.html">
+        <a href="../Formularios/PruebaEmbarazo.php">
           <i class="bi bi-circle"></i><span>Prueba de Embarazo</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/covid.html">
+        <a href="../Formularios/covid.php">
           <i class="bi bi-circle"></i><span>Prueba Covid</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/ets.html">
+        <a href="../Formularios/ets.php">
           <i class="bi bi-circle"></i><span>ETS</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/Dengue IgM_IgG_Ns1.html">
+        <a href="../Formularios/Dengue IgM_IgG_Ns1.php">
           <i class="bi bi-circle"></i><span>Dengue IgM IgG Ns1</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/HelicobacterPyloriEnHeces.html">
+        <a href="../Formularios/HelicobacterPyloriEnHeces.php">
           <i class="bi bi-circle"></i><span>Helicobacter Pylori en Heces</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/influenzaAB.html">
+        <a href="../Formularios/influenzaAB.php">
           <i class="bi bi-circle"></i><span>Influenza A - B</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/GrupoSanguíneo.html">
+        <a href="../Formularios/GrupoSanguíneo.php">
           <i class="bi bi-circle"></i><span>Grupo Sanguineo</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/SangreOculta.html">
+        <a href="../Formularios/SangreOculta.php">
           <i class="bi bi-circle"></i><span>Sangre Oculta</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/TiemposCoagulación.html">
+        <a href="../Formularios/TiemposCoagulación.php">
           <i class="bi bi-circle"></i><span>Tiempos de cuagulacion</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/Inmunología.html">
+        <a href="../Formularios/Inmunología.php">
           <i class="bi bi-circle"></i><span>Inmunologia</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/PaneldeParasitos.html">
+        <a href="../Formularios/PaneldeParasitos.php">
           <i class="bi bi-circle"></i><span>Panel de Paracitos</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/RecuentoEosinofilos.html">
+        <a href="../Formularios/RecuentoEosinofilos.php">
           <i class="bi bi-circle"></i><span>Recuento de Eocinofilos</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/RotaAdenovirus.html">
+        <a href="../Formularios/RotaAdenovirus.php">
           <i class="bi bi-circle"></i><span>Rota/Adenovirus</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/torchIGG.html">
+        <a href="../Formularios/torchIGG.php">
           <i class="bi bi-circle"></i><span>TORCH IgG</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/TorchIGM.html">
+        <a href="../Formularios/TorchIGM.php">
           <i class="bi bi-circle"></i><span>TORCH IgM</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/torchcompleto.html">
+        <a href="../Formularios/torchcompleto.php">
           <i class="bi bi-circle"></i><span>Torch Completo</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/widal.html">
+        <a href="../Formularios/widal.php">
           <i class="bi bi-circle"></i><span>Widal "Antigenos Febriles"</span>
         </a>
       </li>
       <li>
-        <a href="../Presentacion/Formularios/FormularioLibre.html">
+        <a href="../Formularios/FormularioLibre.php">
           <i class="bi bi-circle"></i><span>Formulario Libre</span>
         </a>
       </li>

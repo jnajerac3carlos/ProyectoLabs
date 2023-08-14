@@ -1,7 +1,7 @@
-<?php require "../../Presentacion/Partials/Primera.php" ?>
+<?php require "../Partials/Primera.php" ?>
 
 <div class="pagetitle">
-<h1>Examen de Orina</h1>
+<h3>Examen de Orina</h3>
     <nav>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -337,7 +337,7 @@
 
     <!-- boton de regresar -->
     <div class="container mt-4 d-flex justify-content-center">
-        <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+        <a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
     </div>
 
     <style>
@@ -363,4 +363,4 @@
         }
     </style>
 </form>
-<?php require "../../Presentacion/Partials/Segunda.php" ?>
+<?php require "../Partials/Segunda.php" ?>

@@ -1,4 +1,4 @@
-<?php require "../Presentacion/Partials/Primera.php" ?>
+<?php require "../Partials/Primera.php" ?>
   <div class="pagetitle">
       <h1>Panel principal</h1>
       <nav>
@@ -443,4 +443,4 @@
       </div>
     </section>
 
-<?php require "/Presentacion/Partials/Segunda.php" ?>
+<?php require "../Partials/Segunda.php" ?>

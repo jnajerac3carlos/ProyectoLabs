@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php require "../Partials/Primera.php" ?>
+<div class="pagetitle">
+<h3>TORCH IgG</h3>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Formularios</li>
+            <li class="breadcrumb-item active">TORCH IgG</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -79,13 +84,10 @@
             background-color: #0056b3;
         }
     </style>
-</head>
 
-<body>
     <!-- Formulario TORCH IgG -->
     <form id="torchIgGForm">
-        <h1>TORCH IgG</h1>
-
+        
         <div class="form-group">
             <label for="toxoplasmaIgG">Toxoplasma IgG:</label>
             <select id="toxoplasmaIgG" name="toxoplasmaIgG">
@@ -172,13 +174,14 @@
                     <option value="positive">Positivo</option>
                 </select>
 
-                <!-- Botón de regreso para el formulario TORCH IgM -->
-                <div class="container mt-4 d-flex justify-content-center">
-                    <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
                 <!-- Botón de enviar al final de ambos formularios -->
                 <div class="container mt-4 d-flex justify-content-center">
                     <input type="submit" value="Enviar">
                 </div>
+                <!-- Botón de regreso para el formulario TORCH IgM -->
+                <div class="container mt-4 d-flex justify-content-center">
+                <a href="../Formularios/Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+                </div>
             </div>
         </form>
-        <?php require "../../Presentacion/Partials/Segunda.php" ?>
+        <?php require "../Partials/Segunda.php" ?>
