@@ -1,0 +1,218 @@
+<?php require "../../Presentacion/Partials/Primera.php" ?>
+
+<div class="pagetitle">
+    <h1>Form Layouts</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item">Forms</li>
+            <li class="breadcrumb-item active">Layouts</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 900px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #343a40;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+
+        .form-row {
+            margin-bottom: 15px;
+        }
+
+        .col-md-6 input {
+            width: 100%;
+            height: 40px;
+            padding: 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #00befd;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 35px;
+        }
+
+        .btn-volver:hover {
+            background-color: #0056b3;
+        }
+    </style>
+
+    <title>Formulario Libre</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Contenido del formulario -->
+        <form id="freeForm">
+            <h1>Formulario Libre</h1>
+
+            <div class="form-row">
+                <!-- Columna 1 -->
+                <div class="col-md-6">
+                    <!-- Campos de la columna 1 -->
+                    <label for="campo1">Campo 1:</label>
+                    <input type="text" id="campo1" name="campo1">
+                    <label for="campo2">Campo 2:</label>
+                    <input type="text" id="campo2" name="campo2">
+                    <label for="campo3">Campo 3:</label>
+                    <input type="text" id="campo3" name="campo3">
+                    <label for="campo4">Campo 4:</label>
+                    <input type="text" id="campo4" name="campo4">
+                    <label for="campo5">Campo 5:</label>
+                    <input type="text" id="campo5" name="campo5">
+                    <label for="campo6">Campo 6:</label>
+                    <input type="text" id="campo6" name="campo6">
+                    <label for="campo7">Campo 7:</label>
+                    <input type="text" id="campo7" name="campo7">
+                    <label for="campo8">Campo 8:</label>
+                    <input type="text" id="campo8" name="campo8">
+                    <label for="campo9">Campo 9:</label>
+                    <input type="text" id="campo9" name="campo9">
+                    <label for="campo10">Campo 10:</label>
+                    <input type="text" id="campo10" name="campo10">
+                    <label for="campo11">Campo 11:</label>
+                    <input type="text" id="campo11" name="campo11">
+                    <label for="campo12">Campo 12:</label>
+                    <input type="text" id="campo12" name="campo12">
+                    <label for="campo13">Campo 13:</label>
+                    <input type="text" id="campo13" name="campo13">
+                    <label for="campo14">Campo 14:</label>
+                    <input type="text" id="campo14" name="campo14">
+                    <label for="campo15">Campo 15:</label>
+                    <input type="text" id="campo15" name="campo15">
+                    <label for="campo16">Campo 16:</label>
+                    <input type="text" id="campo16" name="campo16">
+                    <label for="campo17">Campo 17:</label>
+                    <input type="text" id="campo17" name="campo17">
+                    <label for="campo18">Campo 18:</label>
+                    <input type="text" id="campo18" name="campo18">
+                    <label for="campo19">Campo 19:</label>
+                    <input type="text" id="campo19" name="campo19">
+                    <label for="campo20">Campo 20:</label>
+                    <input type="text" id="campo20" name="campo20">
+                    <label for="campo21">Campo 21:</label>
+                    <input type="text" id="campo21" name="campo21">
+                    <label for="campo22">Campo 22:</label>
+                    <input type="text" id="campo22" name="campo22">
+                    <label for="campo23">Campo 23:</label>
+                    <input type="text" id="campo23" name="campo23">
+                    <label for="campo24">Campo 24:</label>
+                    <input type="text" id="campo24" name="campo24">
+                    <label for="campo25">Campo 25:</label>
+                    <input type="text" id="campo25" name="campo25">
+                </div>
+
+                <!-- Columna 2 -->
+                <div class="col-md-6">
+                    <!-- Campos de la columna 2 -->
+                    <label for="campo1.1">Campo 1.1:</label>
+                    <input type="text" id="campo1.1" name="campo26">
+                    <label for="campo2.1">Campo 2.1:</label>
+                    <input type="text" id="campo2.1" name="campo27">
+                    <label for="campo3.1">Campo 3.1:</label>
+                    <input type="text" id="campo3.1" name="campo28">
+                    <label for="campo4.1">Campo 4.1:</label>
+                    <input type="text" id="campo4.1" name="campo29">
+                    <label for="campo5.1">Campo 5.1:</label>
+                    <input type="text" id="campo5.1" name="campo30">
+                    <label for="campo6.1">Campo 6.1:</label>
+                    <input type="text" id="campo6.1" name="campo31">
+                    <label for="campo7.1">Campo 7.1:</label>
+                    <input type="text" id="campo7.1" name="campo32">
+                    <label for="campo8.1">Campo 8.1:</label>
+                    <input type="text" id="campo8.1" name="campo33">
+                    <label for="campo9.1">Campo 9.1:</label>
+                    <input type="text" id="campo9.1" name="campo34">
+                    <label for="campo10.1">Campo 10.1:</label>
+                    <input type="text" id="campo10.1" name="campo35">
+                    <label for="campo11.1">Campo 11.1:</label>
+                    <input type="text" id="campo11.1" name="campo36">
+                    <label for="campo12.1">Campo 12.1:</label>
+                    <input type="text" id="campo12.1" name="campo37">
+                    <label for="campo13.1">Campo 13.1:</label>
+                    <input type="text" id="campo13.1" name="campo38">
+                    <label for="campo14.1">Campo 14.1:</label>
+                    <input type="text" id="campo14.1" name="campo39">
+                    <label for="campo15.1">Campo 15.1:</label>
+                    <input type="text" id="campo15.1" name="campo40">
+                    <label for="campo16.1">Campo 16.1:</label>
+                    <input type="text" id="campo16.1" name="campo41">
+                    <label for="campo17.1">Campo 17.1:</label>
+                    <input type="text" id="campo17.1" name="campo42">
+                    <label for="campo18.1">Campo 18.1:</label>
+                    <input type="text" id="campo18.1" name="campo43">
+                    <label for="campo19.1">Campo 19.1:</label>
+                    <input type="text" id="campo19.1" name="campo44">
+                    <label for="campo20.1">Campo 20.1:</label>
+                    <input type="text" id="campo20.1" name="campo45">
+                    <label for="campo21.1">Campo 21.1:</label>
+                    <input type="text" id="campo21.1" name="campo46">
+                    <label for="campo22.1">Campo 22.1:</label>
+                    <input type="text" id="campo22.1" name="campo47">
+                    <label for="campo23.1">Campo 23.1:</label>
+                    <input type="text" id="campo23.1" name="campo48">
+                    <label for="campo24.1">Campo 24.1:</label>
+                    <input type="text" id="campo24.1" name="campo49">
+                    <label for="campo25.1">Campo 25.1:</label>
+                    <input type="text" id="campo25.1" name="campo50">
+                </div>
+            </div>
+
+            <!-- Botón de enviar -->
+            <input type="submit" value="Enviar" class="btn btn-primary">
+            <br>
+            <!-- Botón de regresar -->
+            <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+
+        </form>
+
+    </div>
+
+    <?php require "../../Presentacion/Partials/Segunda.php" ?>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #343a40;
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            color: #6c757d;
+        }
+
+        select,
+        input {
+            width: 100%;
+            height: 40px;
+            margin-top: 5px;
+            padding: 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-volver,
+        .btn-examen {
+            display: inline-block;
+            padding: 10px 30px;
+            background-color: #00befd;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-right: 10px;
+            /* Agregar espacio entre botones */
+            margin-top: 20px;
+            margin-bottom: 35px;
+            /* Agregar espacio entre los botones y el contenido siguiente */
+        }
+
+        .btn-volver:hover,
+        .btn-examen:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Formulario TORCH IgG -->
+    <form id="torchIgGForm">
+        <h1>TORCH IgG</h1>
+
+        <div class="form-group">
+            <label for="toxoplasmaIgG">Toxoplasma IgG:</label>
+            <select id="toxoplasmaIgG" name="toxoplasmaIgG">
+                <option value="negative">Negativo</option>
+                <option value="positive">Positivo</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="rubeolaIgG">Rubeola IgG:</label>
+            <select id="rubeolaIgG" name="rubeolaIgG">
+                <option value="negative">Negativo</option>
+                <option value="positive">Positivo</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="citomegalovirusIgG">Citomegalovirus IgG:</label>
+            <select id="citomegalovirusIgG" name="citomegalovirusIgG">
+                <option value="negative">Negativo</option>
+                <option value="positive">Positivo</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="herpesIgG1">Herpes Simplex IgG tipo 1:</label>
+            <select id="herpesIgG1" name="herpesIgG1">
+                <option value="negative">Negativo</option>
+                <option value="positive">Positivo</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="herpesIgG2">Herpes Simplex IgG tipo 2:</label>
+            <select id="herpesIgG2" name="herpesIgG2">
+                <option value="negative">Negativo</option>
+                <option value="positive">Positivo</option>
+            </select>
+
+
+        </div>
+
+
+        <!-- Formulario TORCH IgM -->
+        <form id="torchIgMForm">
+            <h1>TORCH IgM</h1>
+
+            <div class="form-group">
+                <label for="toxoplasmaIgM">Toxoplasma IgM:</label>
+                <select id="toxoplasmaIgM" name="toxoplasmaIgM">
+                    <option value="negative">Negativo</option>
+                    <option value="positive">Positivo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="rubeolaIgM">Rubeola IgM:</label>
+                <select id="rubeolaIgM" name="rubeolaIgM">
+                    <option value="negative">Negativo</option>
+                    <option value="positive">Positivo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="citomegalovirusIgM">Citomegalovirus IgM:</label>
+                <select id="citomegalovirusIgM" name="citomegalovirusIgM">
+                    <option value="negative">Negativo</option>
+                    <option value="positive">Positivo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="herpesIgM1">Herpes Simplex IgM tipo 1:</label>
+                <select id="herpesIgM1" name="herpesIgM1">
+                    <option value="negative">Negativo</option>
+                    <option value="positive">Positivo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="herpesIgM2">Herpes Simplex IgM tipo 2:</label>
+                <select id="herpesIgM2" name="herpesIgM2">
+                    <option value="negative">Negativo</option>
+                    <option value="positive">Positivo</option>
+                </select>
+
+                <!-- Botón de regreso para el formulario TORCH IgM -->
+                <div class="container mt-4 d-flex justify-content-center">
+                    <a href="../Dashboard.php" class="btn btn-volver">Volver al menú principal</a>
+                <!-- Botón de enviar al final de ambos formularios -->
+                <div class="container mt-4 d-flex justify-content-center">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+        <?php require "../../Presentacion/Partials/Segunda.php" ?>

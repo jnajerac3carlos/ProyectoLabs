@@ -443,4 +443,4 @@
       </div>
     </section>
 
-<?php require "../Presentacion/Partials/Segunda.php" ?>
+<?php require "/Presentacion/Partials/Segunda.php" ?>
