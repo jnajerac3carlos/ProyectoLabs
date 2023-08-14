@@ -1,0 +1,20 @@
+name: Auto Merge to QAAutomatico
+
+on:
+  push:
+    branches:
+      - Desarrollo
+
+jobs:
+  merge-to-qa:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Merge to QAAutomatico
+      run: |
+        git checkout QAAutomatico
+        git merge Desarrollo
+        git push origin QAAutomatico
