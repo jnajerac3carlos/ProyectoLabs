@@ -71,7 +71,7 @@
     
     <div class="form-group">
       <label for="antigenHP">Antígeno de H. pylori:</label>
-      <select id="antigenHP" name="antigenHP">
+      <select id="antigenoHP" name="antigenHP">
         <option value="positive">Positivo</option>
         <option value="negative">Negativo</option>
 
