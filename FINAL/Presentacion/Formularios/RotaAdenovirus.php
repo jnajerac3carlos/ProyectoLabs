@@ -71,7 +71,7 @@
     
     <div class="form-group">
       <label for="antigenRA">Antígeno de Rotavirus/Adenovirus:</label>
-      <select id="antigenRA" name="antigenRA">
+      <select id="antigenoRA" name="antigenRA">
         <option value="positive">Positivo</option>
         <option value="negative">Negativo</option>
         

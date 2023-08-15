@@ -90,7 +90,7 @@
 
             <div class="flex-container">
                 <label for="noRefValue">No hay valor de referencia solo colocamos el resultado</label>
-                <input type="checkbox" id="noRefValue" name="noRefValue">
+                <input type="checkbox" id="noRefValor" name="noRefValue">
             </div>
         </div>
 

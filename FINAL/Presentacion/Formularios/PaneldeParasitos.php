@@ -71,7 +71,7 @@
     
     <div class="form-group">
       <label for="antigenEH">Antígeno de Entamoeba Histolytica/dispar:</label>
-      <select id="antigenEH" name="antigenEH">
+      <select id="antigenoEH" name="antigenEH">
         <option value="positive">Positivo</option>
         <option value="negative">Negativo</option>
 
@@ -80,7 +80,7 @@
   
     <div class="form-group">
       <label for="antigenGL">Antígeno de Giardia lamblia:</label>
-      <select id="antigenGL" name="antigenGL">
+      <select id="antigeonGL" name="antigenGL">
         <option value="positive">Positivo</option>
         <option value="negative">Negativo</option>
         

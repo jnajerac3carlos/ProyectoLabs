@@ -1,6 +1,6 @@
 <?php require "../Partials/Primera.php" ?>
 <div class="pagetitle">
-<h3>TORCH IgG</h3>
+<h3>TORCH Completo</h3>
 
     <nav>
         <ol class="breadcrumb">

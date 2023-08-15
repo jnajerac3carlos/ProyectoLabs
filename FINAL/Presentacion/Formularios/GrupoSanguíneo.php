@@ -72,7 +72,7 @@
 
     <div class="form-group">
       <label for="bloodGroup">Grupo sanguíneo:</label>
-      <select id="bloodGroup" name="bloodGroup">
+      <select id="gruposanguineo" name="bloodGroup">
         <option value="A">A</option>
         <option value="B">B</option>
         <option value="AB">AB</option>
