@@ -1,13 +1,16 @@
 name: Auto Merge to QAAutomatico
 
 on:
-  push:
+  pull_request:
     branches:
       - Desarrollo
+    types:
+      - closed
 
 jobs:
   merge-to-qa:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
 
     steps:
     - name: Checkout code
