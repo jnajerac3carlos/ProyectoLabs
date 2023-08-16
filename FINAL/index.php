@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -33,7 +34,7 @@
                     </div>
                     <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
 
-                        <form id="loginform" action="../Persistencia/login.php" method="post">
+                        <form id="loginform" action="Controllers/LoginController.php"  method="POST">
 
         
 
@@ -43,7 +44,7 @@
 
                             <!-- Email input -->
                             <div class="form-outline mb-4">
-                                <input type="email" id="email" name="email"
+                                <input type="text" id="email" name="email"
                                     class="form-control form-control-lg" />
                                 <label class="form-label" for="email">Ingresa
                                     tu correo electrónico</label>
@@ -73,7 +74,7 @@
                             </div>
 
                             <div class="text-center text-lg-start mt-4 pt-2">
-                                <button type="submit"
+                                <button type="submit" id="btnLogin" name="btnLogin"
                                     class="btn btn-primary btn-lg"
                                     style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
                                 <p class="small fw-bold mt-2 pt-1 mb-0">Don't

@@ -1,19 +1,8 @@
 <?php
-
-require_once 'ILoginService.php';
-require_once 'LoginServiceImplementation.php';
-
-class LoginController {
-    private ILoginService $loginService;
-
-    public function __construct(ILoginService $loginService){
-        $this->loginService = $loginService;
-    }
-
-    public function signIn($email, $password){
-        return $this->loginService->signIn($email, $password);
-    }
-}
-
-
+//obtener los campos email y password del formulario sin que de el error Undefined array key "email" y "password"
+$email = isset($_POST['email']) ? $_POST['email'] : '';
+$password = isset($_POST['password']) ? $_POST['password'] : '';
+require 'LoginCasoUso.php';
+$loginCasoUso = new LoginCasoUso();
+$loginCasoUso->signIn($email, $password);
 ?>
