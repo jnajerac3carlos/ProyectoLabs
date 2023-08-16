@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Constants.php';
+require 'Constants.php';
 
 class Database {
     private $connection;
@@ -47,7 +47,7 @@ class Database {
             return $stmt->get_result();
 
         } catch (Exception $e) {
-            $this->logException($e->getMessage());
+            //$this->logException($e->getMessage());
             throw $e;
         } finally {
             if (isset($stmt)) {

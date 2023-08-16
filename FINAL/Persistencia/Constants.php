@@ -1,10 +1,10 @@
 <?php
 
 // Database Constants
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'mainselotrop1226');
-define('DB_NAME', 'login');
+define('DB_SERVER', '159.203.74.148');
+define('DB_USERNAME', 'proyectoseminariodbuser');
+define('DB_PASSWORD', 'vEKGN0MvzwJpegzqHe');
+define('DB_NAME', 'proyectoseminariodb');
 
 // Parameter Types
 define('PARAM_INT', 'i');
